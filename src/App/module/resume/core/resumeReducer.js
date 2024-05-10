@@ -2,14 +2,14 @@ import {createSlice} from "@reduxjs/toolkit";
 
 const resumeData = [
     {
-        organization : "Royal University of Phnom Penh",
-        location : "Phnom Penh, Cambodia",
-        role: "Major in Computer Science",
-        date: "Current",
+        organization : "Kilo IT",
+        location: "Phnom Penh, Cambodia",
+        role: "Front-end Trainee",
+        date: "November 2023 - April 2024",
         description: [
-            "babababababa",
-            "cacacacacaca",
-            "dadadadadada"
+            "Train of front-end skill using React Framework",
+            "Trained on Project Management, Trello, Mindmapping",
+            "Working as a team on different project"
         ]
     },
     {
@@ -34,17 +34,6 @@ const resumeData = [
             "Arranged and Interpret for President of ASEAN Swimming Federation, Secretary of ASEAN Swimming Federation and 36 official from Taekwondo Federation"
         ]
     },
-    {
-        organization : "Kilo IT",
-        location: "Phnom Penh, Cambodia",
-        role: "Front-end Trainee",
-        date: "November 2023 - April 2024",
-        description: [
-            "Train of front-end skill using React Framework",
-            "Trained on Project Management, Trello, Mindmapping",
-            "Working as a team on different project"
-        ]
-    }
 ]
 
 const initialState = {
