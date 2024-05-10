@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /* For Webkit based browsers (e.g., Chrome, Safari) */
 ::-webkit-scrollbar {
     width: 3px; /* Width of the scrollbar */
@@ -17,6 +16,30 @@
     background: #555; /* Color of the thumb on hover */
 }
 
-.my-text-color{
-    color: #555555;
+.my-text-color {
+    color: #FFFFCC;
+}
+.sunrise-gradient {
+    /* Define the gradient */
+    background: linear-gradient(to bottom, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
+
+    /* Add vendor prefixes for full browser support */
+    background: -webkit-linear-gradient(top, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
+    background: -moz-linear-gradient(top, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
+    background: -o-linear-gradient(top, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
+    background: -ms-linear-gradient(top, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
+}
+.anton-fonts{
+    font-family: 'Anton', sans-serif;
+}
+.custom-background-1{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.07 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.08 );
+}
+.custom-background-1:hover{
+    color: #fff
 }
