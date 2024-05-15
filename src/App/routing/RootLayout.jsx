@@ -7,7 +7,7 @@ export const RootLayout = () => {
             <header>
                 <NavBar/>
             </header>
-            <main style={{minHeight: "90vh"}}>
+            <main style={{minHeight: "100vh"}}>
                 <Outlet/>
             </main>
         </div>
