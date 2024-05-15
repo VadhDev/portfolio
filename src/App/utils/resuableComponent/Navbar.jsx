@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 
 function customNavBar() {
     return <>
-        <Navbar data-bs-theme="dark">
+        <Navbar className="col-lg-8 m-auto" data-bs-theme="dark">
             <Container>
                 <NavLink to="/">
                     <img className="img-fluid" src={Logo} alt="" style={{width: 130, height: 70,}}/>

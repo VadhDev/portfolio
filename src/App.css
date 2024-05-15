@@ -20,14 +20,8 @@
     color: #FFFFCC;
 }
 .sunrise-gradient {
-    /* Define the gradient */
-    background: linear-gradient(to bottom, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
+    background: #49392C;
 
-    /* Add vendor prefixes for full browser support */
-    background: -webkit-linear-gradient(top, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
-    background: -moz-linear-gradient(top, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
-    background: -o-linear-gradient(top, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
-    background: -ms-linear-gradient(top, #ff6a00, #ffd54f, #ffd54f, #ff6a00);
 }
 .anton-fonts{
     font-family: 'Anton', sans-serif;
@@ -40,6 +34,36 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.08 );
 }
-.custom-background-1:hover{
-    color: #fff
+.max-height{
+    max-height: 190px;
+}
+
+.custom-background-1:hover .hover-text{
+    color: #fff;
+}
+
+.div-project-card:hover .project-thumbnail{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.spinner{
+    animation: spin 3s linear infinite;
+}
+
+.contact-input:focus{
+    outline: none !important;
+}
+.contact-btn{
+    background-color: #49392C;
+    color: #FFFFCC;
+}
+.contact-btn:hover{
+    color: #49392C;
+    background-color: #FFFFCC;
+    transition: .5s;
 }

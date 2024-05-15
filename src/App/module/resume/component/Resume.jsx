@@ -1,24 +1,19 @@
 import {useSelector} from "react-redux";
+import ResumeBlock from "../../../utils/resuableComponent/ResumeBlock";
+import {useEffect} from "react";
 
 const Resume = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const {resume_data} = useSelector(state => state.resume);
     return (
-        <div className="container anton-fonts m-auto pb-2">
+        <div className="col-lg-9 px-0 anton-fonts m-auto pb-5">
+            <h3 data-aos="fade-up" className="text-center my-text-color">Vadh<span className="text-danger">'s Resume</span> </h3>
             {
-                resume_data.map((item, index) => {
-                    return <>
-                        <div className="m-3 mb-0 custom-background-1 my-text-color p-3" key={index}>
-                            <h5>{item.role}</h5>
-                            <p>{item.date}</p>
-                            <p>{item.location}</p>
-                            <p>{item.organization}</p>
-                            <p>
-                                ◪ {item.description[0]} <br/>
-                                ◪ {item.description[1]} <br/>
-                                ◪ {item.description[2]}
-                            </p>
-                        </div>
-                    </>
+                resume_data.map(({organization, location, role, date, description}) => {
+                    return <ResumeBlock key={date} title={role} location={location} timeline={date} arrayDescription={description}  />
                 })
             }
         </div>
