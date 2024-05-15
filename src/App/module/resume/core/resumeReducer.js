@@ -26,7 +26,7 @@ const resumeData = [
     {
         organization : "National Olympic Committee of Cambodia",
         location : "Phnom Penh, Cambodia",
-        role: "Language Officer (Volunterr)",
+        role: "Language Officer (Volunteer)",
         date: "May 2023 - June 2023",
         description: [
             "Interpret as a translator for Technical Official for smooth communication with other SEA GAMES official ",

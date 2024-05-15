@@ -6,6 +6,7 @@ import Resume from "../module/resume/component/Resume";
 import Project from "../module/project/component/Project";
 
 const Routing = createBrowserRouter(
+
     createRoutesFromElements(
         <Route path="/" element={<RootLayout/>}>
             <Route index element={<Welcome/>}></Route>
