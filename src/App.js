@@ -7,9 +7,9 @@ import store from "./App/redux/store";
 
 function App() {
     return (
-        <Provider store={store}>
-            <RouterProvider router={Routing}/>
-        </Provider>
+            <Provider store={store}>
+                <RouterProvider router={Routing}/>
+            </Provider>
     );
 }
 

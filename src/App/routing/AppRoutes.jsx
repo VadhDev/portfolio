@@ -1,4 +1,4 @@
-import {createBrowserRouter, createRoutesFromElements, Route} from "react-router-dom";
+import {createBrowserRouter, createRoutesFromElements, Route, useNavigate} from "react-router-dom";
 import {RootLayout} from "./RootLayout";
 import {Welcome} from "../module/welcome/Welcome";
 import Contact from "../module/contact/component/Contact";

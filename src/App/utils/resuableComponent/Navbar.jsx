@@ -1,6 +1,6 @@
 import {Container, Nav, Navbar} from "react-bootstrap";
 import Logo from "../../../assets/Logo.png";
-import {NavLink} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 
 function customNavBar() {
     return <>

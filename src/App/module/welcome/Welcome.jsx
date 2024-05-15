@@ -21,9 +21,9 @@ export const Welcome = () => {
                 </div>
                 <div className="h-50 mt-3">
                     <div className="text-center d-flex flex-wrap justify-content-center ">
-                        <OptionBubble path="/project" label="Project"/>
-                        <OptionBubble path="/resume" label="Resume"/>
-                        <OptionBubble path="/contact" label="Contact"/>
+                        <OptionBubble  path="/project" label="Project"/>
+                        <OptionBubble  path="/resume" label="Resume"/>
+                        <OptionBubble  path="/contact" label="Contact"/>
                     </div>
                     <div className="d-flex justify-content-center mt-5 pb-3">
                         <button className="border-0 bg-transparent">
